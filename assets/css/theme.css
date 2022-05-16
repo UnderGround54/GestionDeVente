@@ -1,0 +1,50 @@
+.scrollToTop, .pagination_area ul li a:hover{background-color:#ee1717; color:#fff}
+.scrollToTop:hover, .scrollToTop:focus, .pagination_area ul li a{background-color:#fff; color:#ee1717; border-color:1px solid #ee1717}
+.top_nav li a:hover{color:#ee1717}
+.search_form input[type="submit"]:hover{background-color:#ee1717}
+.navbar-default{background-color: #3f21a3; border-color:#ee1717}
+.custom_nav li a:hover{border-color:#ee1717}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{background-color:#fff; color:#ee1717; border-color:#ee1717}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{background-color:#fff; color:#ee1717; border-color:#ee1717}
+.navbar-nav > li > .dropdown-menu{margin-top:2px; background-color:#3f21a3}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{background-color:#fff; color:#ee1717; border-color:#ee1717; padding-left:20px}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a{color:#3f21a3}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{background-color:#fcc259}
+.slick-prev, .slick-next{background-color:#ee1717}
+.slick-prev:hover, .slick-next:hover{opacity:0.80}
+.bold_line span{background-color:#ee1717}
+.catg1_nav li .post_titile a:hover{color:#ee1717}
+.content_middle_middle:after{background-color:#ee1717}
+.content_middle_middle:before{background-color:#ee1717}
+.single_featured_slide > h2 a:hover{color:#ee1717}
+.catg_titile a:hover{color:#ee1717}
+span.meta_date:hover, span.meta_comment:hover, span.meta_more:hover, span.meta_comment a:hover, span.meta_more a:hover{color:#ee1717}
+.media-heading a:hover{color:#ee1717}
+.single_bottom_rightbar > h2{border-bottom:3px solid #ee1717}
+.nav-tabs{border-bottom:1px solid #ee1717}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus{color:#ee1717}
+.nav-tabs > li.active > a:hover{color:#ee1717 !important}
+.nav-tabs > li > a:hover{background-color:#ee1717; color:#fff !important}
+.single_bottom_rightbar ul li > a:hover{color:#ee1717}
+.labels_nav li a:hover{background-color:#ee1717}
+.breadcrumb{background-color:#ee1717; border:2px solid #ee1717}
+.single_page_area > h2{border-left:5px solid #ee1717}
+.post_commentbox a:hover, .post_commentbox span:hover{color:#ee1717}
+.single_page_content blockquote{border-color:#eee #ee1717; border-left:5px solid #ee1717}
+.single_page_content ul li:before{background:none repeat scroll 0 0 #ee1717}
+.post_pagination{border-bottom:2px solid #ee1717; border-top:2px solid #ee1717}
+.prev{border-right:2px solid #ee1717}
+.angle_left{background-color:#ee1717}
+.angle_right{background-color:#ee1717}
+.error_page_content h1:after, .error_page_content h1:before{border:2px solid #ee1717}
+.error_page_content p{border-bottom:2px solid #ee1717; border-top:2px solid #ee1717}
+.error_page_content p:after{border-top:1px solid #ee1717}
+.error_page_content p:before{border-top:1px solid #ee1717}
+.error_page_content p > a:hover{color:#ee1717}
+.our_office{border-top:2px solid #ee1717}
+.contact_us{border-top:2px solid #ee1717}
+.contact_form input[type="submit"]:hover{background-color:#ee1717; color:#fff; border-color:#ee1717}
+.our_office:before{border-bottom:1px solid #ee1717}
+.contact_us:before{border-bottom:1px solid #ee1717}
+.single_footer_top > h2{color:#ee1717}
+.similar_post h2 i{color:#ee1717}

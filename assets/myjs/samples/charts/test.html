@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Polar Area Chart</title>
+	<script src="../../Chart.bundle.js"></script>
+	<script src="../utils.js"></script>
+</head>
+
+<body id="body">
+	<div id="canvas-pie" style="width:50%">
+		<canvas id="chart-pie"></canvas>
+	</div>
+	<button id="addData">Add Data</button>
+	<script>
+
+		var chartColors = window.chartColors;
+		var color = Chart.helpers.color;
+		var chartdata = {
+			data: {
+				datasets: [{
+						backgroundColor: [
+						// color(chartColors.red).alpha(0.5).rgbString(),
+						// color(chartColors.orange).alpha(0.5).rgbString(),
+						// color(chartColors.yellow).alpha(0.5).rgbString(),
+						// color(chartColors.green).alpha(0.5).rgbString(),
+						// color(chartColors.blue).alpha(0.5).rgbString(),
+					],
+					data:[]
+					
+				}],
+			},
+			
+		};
+
+		window.onload = function() {
+			var ctx = document.getElementById('chart-pie');
+			window.pie = Chart.Doughnut(ctx, chartdata);
+		};
+		var colorNames = Object.keys(window.chartColors);
+		document.getElementById('addData').addEventListener('click', function() {
+			if (chartdata.data.datasets.length > 0) {
+				chartdata.data.labels.push(chartdata.data.labels.length);
+				chartdata.data.datasets.forEach(function(dataset) {
+					var colorName = colorNames[chartdata.data.labels.length % colorNames.length];
+					dataset.backgroundColor.push(window.chartColors[colorName]);
+					dataset.data.push(2);
+				});
+				window.pie.update();
+			}
+		});
+	</script>
+</body>
+
+</html>
